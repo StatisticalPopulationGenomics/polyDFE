@@ -1,0 +1,19 @@
+# lines starting with # are comments and can be present anywhere in the file
+# max same: If after max same iterations, the basin-hopping algorithm does not find an improved set
+#   of parameters, than the algorithm stops. Default value: 50.
+# max iter: The basin-hopping algorithm is ran for a maximum of max iter iterations. Default value: 500.
+# temp: The temp is the temperature used in the metropolis criterion when accepting or rejecting
+#   the new values. For best results, the temperature should be comparable to the typical difference in
+#   likelihood between local optima. Default value: 1.
+# step: The step controls how far away from the current value the perturbated value is. This is crucial
+#   for the algorithm’s performance. Ideally, it should be comparable to the typical separation between
+#   local optima of the likelihood. The algorithm implemented in polyDFE will automatically adjust the
+#   step, but it make take many iterations to find an optimal value. Default value: 50.
+# accept rate: The target accept rate (percentage of new values that are accepted in step 3) for when
+#   adjusting the step. Default value: 0.5.
+# interval: Every interval iterations, the basin-hopping algorithm adjusts the step. Default value: 10.
+# factor: When the step is adjusted, it is done with this factor. Default value: 0.9.
+
+#ID  max same     max iter   temp    step   accept rate    interval    factor
+0    100          500        1       50     0.5            10          0.9
+1    10           10         1       50     0.5            10          0.9

@@ -1,0 +1,728 @@
+---- Running command
+---- ./polyDFE -d central_chimp_sfs -b  params_basinhop.txt 1 -m C -i init_C.txt 2 -e 
+---- Performing inference on central_chimp_sfs using model C
+
+---- Warning: mutation variability is not used when only one neutral and one selected fragment is available.
+---- No mutation variability. Using Poisson likelihood.
+
+---- Starting a maximum of 10 basin hopping iterations
+
+---- Calculating initial values for neutral parameters
+---- Calculating initial values for selection parameters
+
+
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.01512645 0.00337642     -20000 0.60400000 0.10000000         20 -415540.1253873 7127.59417   -2 
+ 170 0.01013482 0.00211171 -83.258987 0.83206085 0.00998577 12.8636457 -5051.489683310 0.00032129   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 1
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.00560247 0.08361941 -7329.8321 0.57567952 0.01185096 19.4194014 -1329386.280920 14029.9667   -2 
+ 125 0.01013481 0.00211171 -83.257596 0.83206925 0.00998538 12.8642359 -5051.489682770 0.00041201   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 2
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.03731794 0.11865937 -18459.753 0.18407277 0.01673592 32.7846371 -3584836.447890 36700.5272   -2 
+ 251 0.01013481 0.00211171 -83.258530 0.83205697 0.00998482 12.8648431 -5051.489682246 0.00007477    0 
+
+
+---- Basin hopping iteration 3
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.03858504 0.19227173 -21963.459 1.29629654 0.01778646 10.8523734 -3306446.215556 27794.5416   -2 
+ 210 0.01013481 0.00211171 -83.257002 0.83207174 0.00998543 12.8641577 -5051.489682841 0.00024766   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 4
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.07851662 0.06385378 -11076.428 1.55597438 0.01348175 19.3586262 -1380953.589887 12100.4103   -2 
+ 103 0.01013482 0.00211171 -83.258046 0.83206429 0.00998528 12.8642971 -5051.489682588 0.00027295   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 5
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.01570056 0.14334620 -16443.278 2.59170090 0.03139169 14.9963311 -2573117.637456 23883.4366   -2 
+ 241 0.01013482 0.00211171 -83.261087 0.83202777 0.00998266 12.8674555 -5051.489683543 0.00034561   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 6
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.07156383 0.05595850 -8096.8365 2.82409089 0.01328886 17.3257866 -1161317.407682 10406.8264   -2 
+ 154 0.01013481 0.00211171 -83.255403 0.83208825 0.00998625 12.8631925 -5051.489684231 0.00055618   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 7
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.12227294 0.22755884 -22444.992 1.28488341 0.10081423 14.7142648 -8912070.306153 73184.0093   -2 
+  52 0.01091874 0.00192854 -436.68995 0.30153364 0.00000000 0.00864767 -6850.961821606 0.00006613    0 
+
+---- Basin hopping iteration 8
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.06613928 0.10705676 -17685.578 2.14263913 0.00794665 5.48515164 -1765247.497768 15815.1617   -2 
+ 306 0.01013483 0.00211171 -83.255000 0.83209174 0.00998654 12.8628085 -5051.489684819 0.00044114   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 9
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.05338757 0.22602187 -10122.580 1.26885326 0.05139204 36.4591011 -6365428.090035 50897.1100   -2 
+ 219 0.01013482 0.00211171 -83.257836 0.83206241 0.00998531 12.8642180 -5051.489682682 0.00033907   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 10
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.03502036 0.13851740 -5307.0520 3.21212888 0.00405846 27.9284020 -2165458.157185 19508.7917   -2 
+ 100 0.01013481 0.00211171 -83.260641 0.83203677 0.00998374 12.8661175 -5051.489682251 0.00009742    0 
+
+
+
+---- Basin hopping performed 10 iterations
+---- Basin hopping reached maximum number of iterations allowed
+
+---- Best joint likelihood found -5051.489682246726261 with gradient 0.00007
+--  Model: C
+--     eps_an     lambda  theta_bar          a 
+--          0 0.01013481 0.00211171         -1 
+--        S_d          b        p_b        S_b 
+-- -83.258530 0.83205697 0.00998482 12.8648431 
+--       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24 
+--          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1 
+
+---- Expected P_neut(i), 0 < i < n (neutral SFS per site) 
+E[P_neut(1)] = 0.0021117132
+E[P_neut(2)] = 0.0010558566
+E[P_neut(3)] = 0.0007039044
+E[P_neut(4)] = 0.0005279283
+E[P_neut(5)] = 0.0004223426
+E[P_neut(6)] = 0.0003519522
+E[P_neut(7)] = 0.0003016733
+E[P_neut(8)] = 0.0002639642
+E[P_neut(9)] = 0.0002346348
+E[P_neut(10)] = 0.0002111713
+E[P_neut(11)] = 0.0001919739
+E[P_neut(12)] = 0.0001759761
+E[P_neut(13)] = 0.0001624395
+E[P_neut(14)] = 0.0001508367
+E[P_neut(15)] = 0.0001407809
+E[P_neut(16)] = 0.0001319821
+E[P_neut(17)] = 0.0001242184
+E[P_neut(18)] = 0.0001173174
+E[P_neut(19)] = 0.0001111428
+E[P_neut(20)] = 0.0001055857
+E[P_neut(21)] = 0.0001005578
+E[P_neut(22)] = 0.0000959870
+E[P_neut(23)] = 0.0000918136
+
+---- Expected P_sel(i), 0 < i < n (selected SFS per site) 
+E[P_sel(1)] = 0.0008451082
+E[P_sel(2)] = 0.0002457999
+E[P_sel(3)] = 0.0001171828
+E[P_sel(4)] = 0.0000701651
+E[P_sel(5)] = 0.0000477310
+E[P_sel(6)] = 0.0000351880
+E[P_sel(7)] = 0.0000274100
+E[P_sel(8)] = 0.0000222264
+E[P_sel(9)] = 0.0000185867
+E[P_sel(10)] = 0.0000159297
+E[P_sel(11)] = 0.0000139330
+E[P_sel(12)] = 0.0000124006
+E[P_sel(13)] = 0.0000112079
+E[P_sel(14)] = 0.0000102735
+E[P_sel(15)] = 0.0000095433
+E[P_sel(16)] = 0.0000089820
+E[P_sel(17)] = 0.0000085678
+E[P_sel(18)] = 0.0000082908
+E[P_sel(19)] = 0.0000081522
+E[P_sel(20)] = 0.0000081684
+E[P_sel(21)] = 0.0000083799
+E[P_sel(22)] = 0.0000088846
+E[P_sel(23)] = 0.0000100403
+
+---- Expected D_neut and D_sel (neutral and selected divergence per site) 
+E[D_neut] = 0.0102228071
+E[D_sel] = 0.0016525401
+
+---- Expected neutral and selected misattributed polymorphism per site
+E[mis_neut] = 0.0000879881
+E[mis_sel] = 0.0000111058
+
+---- alpha_div = 0.797868
+---- alpha_dfe = 0.800190
+
+
+
+---- Running command
+---- ./polyDFE -d central_chimp_sfs -b  params_basinhop.txt 1 -m C -i init_C.txt 3 -e 
+---- Performing inference on central_chimp_sfs using model C
+
+---- Warning: mutation variability is not used when only one neutral and one selected fragment is available.
+---- No mutation variability. Using Poisson likelihood.
+
+---- Starting a maximum of 10 basin hopping iterations
+
+---- Calculating initial values for neutral parameters
+---- Calculating initial values for selection parameters
+
+
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.10000000 0.01510989 0.00377386     -20000 0.60400000 0.10000000         20 -421575.8899896 7145.11822   -2 
+ 212 0.01630994 0.01017582 0.00210168 -79.562782 0.80025074 0.00357710 34.3596027 -4872.044249663 0.00011325   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 1
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.01364104 0.02069429 0.13680856 -21190.106 2.39689437 0.00076123 26.5524534 -2072668.948832 18658.5947   -2 
+ 245 0.01631194 0.01017582 0.00210168 -79.566476 0.80020596 0.00357430 34.3856008 -4872.044258950 0.00018856   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 2
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.09881808 0.04561042 0.23821000 -16549.716 0.94701733 0.09933321 30.5051504 -8498752.891804 69792.2570   -2 
+  23 0.00258100 0.00385491 0.00086061 -73995.804 0.01000107 0.00000192 0.22764468 -49463.69945311 1.67096153   -3 
+-- Local optimization: stuck in the same solution
+
+---- Basin hopping iteration 3
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.04256057 0.00380297 0.16461369 -5179.4714 1.32549624 0.12303766 49.3643794 -5160130.839069 48194.9808   -2 
+ 145 0.01630917 0.01017582 0.00210168 -79.561929 0.80026148 0.00357791 34.3520508 -4872.044249948 0.00020691   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 4
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.11243909 0.08180003 0.04245702 -22415.819 0.12425654 0.11254749 44.5941481 -8676084.581535 91743.1432   -2 
+ 216 0.00000000 0.01013481 0.00211171 -83.257931 0.83206604 0.00998556 12.8639513 -5051.489682336 0.00015327   -3 
+-- Local optimization: stuck in the same solution
+
+---- Basin hopping iteration 5
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.03182330 0.11808888 0.12046954 -4588.3757 0.06392749 0.05227746 26.3635330 -10069839.71191 76672.6288   -2 
+ 281 0.01630706 0.01017583 0.00210167 -79.557489 0.80031241 0.00358132 34.3204185 -4872.044265638 0.00067656   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 6
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.06116861 0.04457479 0.11049817 -970.54910 2.87162848 0.04944048 53.3582350 -4118783.511077 37859.4063   -2 
+ 476 0.01630999 0.01017582 0.00210168 -79.563118 0.80025041 0.00357730 34.3577356 -4872.044249647 0.00011495   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 7
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.09036101 0.01059473 0.06232969 -935.01331 3.09430209 0.08631506 48.0268192 -2059318.629624 20500.1472   -2 
+ 189 0.01630783 0.01017582 0.00210167 -79.559876 0.80029260 0.00358010 34.3319026 -4872.044257184 0.00045460   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 8
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.06486254 0.05241861 0.00080625 -9450.4834 1.41690939 0.03408192 17.3401207 -569595.8813005 8243.24419   -2 
+ 318 0.01631175 0.01017582 0.00210168 -79.566063 0.80020948 0.00357453 34.3834312 -4872.044257583 0.00033859   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 9
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.03272828 0.06451501 0.16127929 -18775.562 1.83841188 0.09434867 37.3257937 -7810315.556401 71002.7701   -2 
+   4 0.03269324 0.00003001 0.00003984 -18953.206 1.85808740 0.00000433 0.20703155 -1016849.829946 1553.40322   -8 
+-- Reached maximum number of likelihood evaluations allowed. Results are not reliable
+
+---- Basin hopping iteration 10
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b           ln lk       grad status 
+   0 0.07607952 0.03524954 0.03061218 -15514.016 2.48061635 0.07157153 39.7197959 -2110076.160146 25280.8607   -2 
+ 386 0.01631162 0.01017581 0.00210168 -79.566606 0.80020811 0.00357466 34.3822144 -4872.044256901 0.00024018   -3 
+-- Local optimization: stuck in the same solution
+
+
+
+---- Basin hopping performed 9 iterations
+---- Basin hopping reached maximum number of iterations allowed
+
+---- Best joint likelihood found -4872.044249663000301 with gradient 0.00011
+--  Model: C
+--     eps_an     lambda  theta_bar          a 
+-- 0.01630994 0.01017582 0.00210168         -1 
+--        S_d          b        p_b        S_b 
+-- -79.562782 0.80025074 0.00357710 34.3596027 
+--       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24 
+--          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1          1 
+
+---- Expected P_neut(i), 0 < i < n (neutral SFS per site) 
+E[P_neut(1)] = 0.0020688943
+E[P_neut(2)] = 0.0010352601
+E[P_neut(3)] = 0.0006907669
+E[P_neut(4)] = 0.0005185649
+E[P_neut(5)] = 0.0004152849
+E[P_neut(6)] = 0.0003464717
+E[P_neut(7)] = 0.0002973598
+E[P_neut(8)] = 0.0002605679
+E[P_neut(9)] = 0.0002319968
+E[P_neut(10)] = 0.0002091888
+E[P_neut(11)] = 0.0001905826
+E[P_neut(12)] = 0.0001751402
+E[P_neut(13)] = 0.0001621473
+E[P_neut(14)] = 0.0001510995
+E[P_neut(15)] = 0.0001416356
+E[P_neut(16)] = 0.0001334975
+E[P_neut(17)] = 0.0001265089
+E[P_neut(18)] = 0.0001205688
+E[P_neut(19)] = 0.0001156664
+E[P_neut(20)] = 0.0001119398
+E[P_neut(21)] = 0.0001098739
+E[P_neut(22)] = 0.0001111121
+E[P_neut(23)] = 0.0001241654
+
+---- Expected P_sel(i), 0 < i < n (selected SFS per site) 
+E[P_sel(1)] = 0.0008465866
+E[P_sel(2)] = 0.0002488057
+E[P_sel(3)] = 0.0001188045
+E[P_sel(4)] = 0.0000709092
+E[P_sel(5)] = 0.0000479566
+E[P_sel(6)] = 0.0000350913
+E[P_sel(7)] = 0.0000271004
+E[P_sel(8)] = 0.0000217676
+E[P_sel(9)] = 0.0000180173
+E[P_sel(10)] = 0.0000152740
+E[P_sel(11)] = 0.0000132066
+E[P_sel(12)] = 0.0000116136
+E[P_sel(13)] = 0.0000103674
+E[P_sel(14)] = 0.0000093848
+E[P_sel(15)] = 0.0000086118
+E[P_sel(16)] = 0.0000080151
+E[P_sel(17)] = 0.0000075790
+E[P_sel(18)] = 0.0000073072
+E[P_sel(19)] = 0.0000072338
+E[P_sel(20)] = 0.0000074582
+E[P_sel(21)] = 0.0000082716
+E[P_sel(22)] = 0.0000107597
+E[P_sel(23)] = 0.0000219684
+
+---- Expected D_neut and D_sel (neutral and selected divergence per site) 
+E[D_neut] = 0.0102633944
+E[D_sel] = 0.0016417705
+
+---- Expected neutral and selected misattributed polymorphism per site
+E[mis_neut] = 0.0000875701
+E[mis_sel] = 0.0000090793
+
+---- alpha_div = 0.766826
+---- alpha_dfe = 0.767054
+
+
+
+---- Running command
+---- ./polyDFE -d central_chimp_sfs -b  params_basinhop.txt 1 -m C -i init_C.txt 4 -e -l 60 
+---- Performing inference on central_chimp_sfs using model C
+
+---- Warning: mutation variability is not used when only one neutral and one selected fragment is available.
+---- No mutation variability. Using Poisson likelihood.
+
+---- Starting a maximum of 10 basin hopping iterations
+
+---- Calculating initial values for neutral parameters
+---- Calculating initial values for selection parameters
+
+
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.01507846 0.00337642     -20000 0.60400000 0.10000000         20 0.84708804 0.66119238 0.55672094 0.46542920 0.38255589 0.33715153 0.27656638 0.28319072 0.27946453 0.22619376 0.21280706 0.20721777 0.20673475 0.19044990 0.23847640 0.22053546 0.22357162 0.26221363 0.31741650 0.39125034 0.68920783 1.34108473 1.34108473 -398907.1211647 7040.98283   -2 
+ 312 0.01008274 0.00337267 -49995.918 0.17051094 0.00219610 14.2708760 0.85265726 0.65817512 0.55487975 0.45986116 0.38326317 0.33712749 0.27930480 0.27726147 0.27206055 0.24669408 0.22078594 0.20255945 0.19901140 0.20631315 0.23202477 0.23160412 0.25030126 0.25999263 0.33547325 0.38304334 0.64471344 1.34210618 1.31935653 -209.1332073582 0.07529656   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 1
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.00623386 0.22926479 -66878.309 1.35224075 0.04834690 38.2412576 2.55573448 2.24600815 2.54812119 0.10589306 2.42094541 1.23606639 2.52522293 0.79250298 2.05467474 2.65008281 1.30318876 2.53471403 0.30603749 1.47604387 0.24275136 1.15106887 1.24779304 1.41608309 0.01104077 2.64143161 2.12479406 3.29660505 1.45079503 -8124191.339018 69685.2833   -2 
+ 313 0.01012040 0.00337711 -62744.530 0.16530709 0.00102718 28.0378886 0.85078636 0.65631370 0.55318533 0.45834849 0.38201900 0.33600828 0.27838044 0.27645040 0.27132761 0.24627907 0.22070041 0.20226862 0.19847477 0.20583713 0.23158974 0.23124200 0.25010221 0.25998686 0.33521103 0.38395564 0.64772124 1.34819488 1.04511211 -208.9445283717 0.00151514   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 2
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.00434680 0.05713548 -45281.221 1.98537570 0.12032254 48.2333107 1.39220267 0.76622772 1.00629422 1.81170578 1.35809894 0.83370044 2.20092308 2.59758479 0.70151754 1.14539250 2.04679113 2.12987732 2.28950598 1.19668827 1.30941724 0.68681335 2.06278330 0.46398749 1.30594563 0.35371913 3.02683816 1.29420602 1.34181388 -2391821.046847 25018.9199   -2 
+ 828 0.01010839 0.00337303 -49576.518 0.17082652 0.00245170 12.8606038 0.85257084 0.65812924 0.55487827 0.45981157 0.38325121 0.33707924 0.27924973 0.27725274 0.27206634 0.24689298 0.22118760 0.20264400 0.19876040 0.20603154 0.23167250 0.23116292 0.24980778 0.25942111 0.33408453 0.38214584 0.64384976 1.34080241 1.14017206 -209.1536557300 0.00269302   -3 
+-- Local optimization: stuck in the same solution
+
+---- Basin hopping iteration 3
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.01606422 0.08470259 -61362.396 1.64684343 0.06241315 44.0528414 1.14881450 2.80747601 0.73429922 0.04396424 0.50308668 1.46009559 0.72322612 2.58213155 0.65194006 2.65260204 2.01725057 0.14676422 1.69759985 1.92572440 0.03716459 2.46152943 1.23407263 2.66071677 0.24933569 1.87893196 1.87104118 0.65503952 0.84184782 -2866491.594951 27464.6115   -2 
+ 885 0.01016998 0.00337524 -61207.725 0.16555209 0.00074159 38.5632052 0.85100442 0.65664872 0.55350069 0.45864793 0.38228271 0.33628760 0.27861809 0.27670549 0.27160211 0.24655853 0.22101863 0.20254897 0.19878209 0.20620320 0.23201642 0.23174793 0.25068667 0.26070702 0.33621062 0.38527003 0.65034835 1.35485561 0.69140157 -208.9518335341 0.03781807   -6 
+-- Local optimization: reached maximum running time allowed
+
+
+---- Basin hopping iteration 4
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.04625890 0.21807720 -53191.841 1.76397943 0.03612765 16.1942571 2.23275840 1.78916839 2.61131131 1.59374504 2.24299874 1.34429699 0.55791742 1.70808841 2.39209908 0.08801503 1.21111494 2.63224477 2.47866076 2.21724577 0.68281196 0.69634354 0.64131713 2.65613779 2.19864383 2.45483264 2.52169195 3.27203872 0.99556324 -7324833.282509 60510.0821   -2 
+ 495 0.00889161 0.00335963 -2951.3665 0.45089191 0.12402133 0.20525091 0.86675574 0.66641637 0.55909601 0.46056080 0.38224964 0.33476060 0.27564305 0.27327048 0.26738276 0.24176339 0.21583555 0.19742884 0.19334497 0.19996960 0.22498288 0.22381770 0.24197791 0.25108127 0.32290855 0.37013635 0.62586310 1.31390334 9.99523108 -216.0207113428 0.06074174   -8 
+-- Reached maximum number of likelihood evaluations allowed. Results are not reliable
+
+---- Basin hopping iteration 5
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.09928861 0.11953098 -62106.947 2.42405181 0.00899505 47.3808693 3.17788033 0.97277553 2.98663270 2.07876789 1.11665319 0.84521882 2.25357088 0.82600770 0.00287124 1.24333802 0.19322309 1.31433925 2.17092315 0.40002217 0.70164513 1.24585832 2.50734001 1.99184301 2.73119874 0.68267238 1.84013094 0.72700383 2.58860003 -3868052.700181 31479.2675   -2 
+ 423 0.00994515 0.00336030 -2950.0495 0.45198300 0.12432141 0.20265462 0.86688162 0.66643672 0.55882220 0.46065582 0.38213947 0.33463056 0.27598031 0.27304264 0.26729050 0.24172917 0.21587965 0.19748674 0.19358638 0.20012357 0.22490848 0.22370733 0.24166337 0.25076615 0.32304274 0.37018012 0.62585567 1.31263716 2.46975924 -216.0186291286 0.04006377   -8 
+-- Reached maximum number of likelihood evaluations allowed. Results are not reliable
+
+---- Basin hopping iteration 6
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.11255556 0.04132395 -46248.884 0.63933206 0.04513843 51.4916141 0.16882822 0.82736654 2.86146293 1.16173855 2.32778090 2.14412248 0.19798552 1.51454665 0.11507347 0.16575033 2.62492438 1.23953480 1.81891541 0.73013254 0.28014886 2.37738565 2.46620778 0.56064867 1.74607638 1.67733429 1.15430281 0.21661666 0.72597430 -5249184.635230 58520.3218   -2 
+ 162 0.00913209 0.00326783 -99989.308 0.14718913 0.00000046 0.29618154 0.84605012 0.65145231 0.54857421 0.45428258 0.37850724 0.33285747 0.27575385 0.27381891 0.26876546 0.24398626 0.21869175 0.20048311 0.19679394 0.20418932 0.22987393 0.22970815 0.24869804 0.25888436 0.33443661 0.38417633 0.65126024 1.37066283 9.99820222 -289.9115389595 0.00009894    0 
+
+---- Basin hopping iteration 7
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.00223412 0.03728568 -85297.418 0.77963944 0.08520637 20.5256749 0.47676165 2.30367082 1.00567706 0.81203740 1.89080696 1.59899276 0.18095285 1.99118338 1.96126078 0.23873617 2.49507354 2.58712869 1.12406053 0.98900007 2.57290268 1.33718642 1.98112583 0.11667200 1.15636337 2.25272783 0.47815282 0.38909589 0.61914097 -959836.1698388 10928.0359   -2 
+ 704 0.01017976 0.00337771 -64402.908 0.16477745 0.00096904 29.4229066 0.85058623 0.65610333 0.55297905 0.45816589 0.38186751 0.33586729 0.27826949 0.27630526 0.27120181 0.24616650 0.22061396 0.20218358 0.19839057 0.20576119 0.23152481 0.23117536 0.25003899 0.25993172 0.33516574 0.38396707 0.64779870 1.34855302 0.62302914 -208.9376072745 0.00099309   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 8
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.00214455 0.16260407 -58299.715 1.68767928 0.08759534 11.1129126 1.00350162 1.83143799 1.85147294 0.40020424 0.18134132 1.04811078 1.23402887 1.32620943 1.17110193 2.63691094 1.32758531 0.90068128 2.33426002 2.30111514 2.31263488 2.33455920 1.64196250 0.70251684 1.40033711 0.39978278 1.86521936 0.90238629 2.64661718 -4798940.769437 46381.1843   -2 
+1143 0.00998217 0.00337178 -43728.340 0.17425854 0.00406956 8.18383553 0.85277362 0.65677813 0.55489096 0.45765172 0.38374500 0.33715452 0.27965614 0.27710662 0.27180721 0.24692313 0.22029188 0.20249380 0.19968314 0.20464019 0.23188796 0.22872402 0.24714616 0.25630524 0.33431115 0.37812083 0.63962597 1.33801241 2.07308464 -209.4774107295 0.35305891   -6 
+-- Local optimization: reached maximum running time allowed
+
+---- Basin hopping iteration 9
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.00204732 0.08748968 -57950.606 2.18081413 0.08547805 15.0345321 1.95096862 0.00081271 0.07949574 2.61748458 1.90794373 1.07439098 1.77785757 1.53003337 0.73377773 2.26532717 1.11504223 1.35697823 1.03839067 1.71005429 2.56354304 2.40887182 1.03594779 0.28658807 0.56623060 1.32555502 0.69025812 1.00729783 1.35256276 -2434935.308593 25451.6922   -2 
+ 249 0.01010578 0.00336928 -2252.5436 0.57591664 0.14832514 0.00027565 0.86354756 0.66126168 0.55308309 0.45524393 0.37730522 0.33026376 0.27248328 0.26957714 0.26372273 0.23868470 0.21334216 0.19507451 0.19102678 0.19776269 0.22216965 0.22157117 0.23943767 0.24880189 0.32086760 0.36799581 0.62287030 1.30898152 1.42690303 -219.3321251089 0.00032947   -3 
+-- Local optimization: stuck in the same solution
+
+---- Basin hopping iteration 10
+-- Starting local optimization
+-- Optimizing all parameters
+  it     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.00749205 0.04733390 -80314.780 1.82119324 0.09797979 38.9360354 1.00860425 1.53147228 0.59507409 0.28910340 2.32444717 1.93375340 0.41962857 2.02960097 2.44805495 1.92536647 0.26046263 1.62966557 2.63349249 0.34529226 0.09902773 2.59024461 2.58210100 1.59551258 0.79805043 1.27291481 1.00963303 1.11467360 2.49486480 -1827617.362368 19332.0482   -2 
+1312 0.00959931 0.00337246 -31840.081 0.18739422 0.01375142 2.90339435 0.85493432 0.66010992 0.55629131 0.46077968 0.38399023 0.33721909 0.27906879 0.27679856 0.27136588 0.24586840 0.21992146 0.20114736 0.19710573 0.20400746 0.22904902 0.22812419 0.24614524 0.25522853 0.32825630 0.37524049 0.63259992 1.32237696 4.80173252 -210.1809636995 0.02846262   -6 
+-- Local optimization: reached maximum running time allowed
+
+
+---- Basin hopping performed 10 iterations
+---- Basin hopping reached maximum number of iterations allowed
+
+---- Best joint likelihood found -208.937607274490517 with gradient 0.00099
+--  Model: C
+--     eps_an     lambda  theta_bar          a 
+--          0 0.01017976 0.00337771         -1 
+--        S_d          b        p_b        S_b 
+-- -64402.908 0.16477745 0.00096904 29.4229066 
+--       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24 
+-- 0.85058623 0.65610333 0.55297905 0.45816589 0.38186751 0.33586729 0.27826949 0.27630526 0.27120181 0.24616650 0.22061396 0.20218358 0.19839057 0.20576119 0.23152481 0.23117536 0.25003899 0.25993172 0.33516574 0.38396707 0.64779870 1.34855302 0.62302914 
+
+---- Expected P_neut(i), 0 < i < n (neutral SFS per site) 
+E[P_neut(1)] = 0.0033777182
+E[P_neut(2)] = 0.0014365203
+E[P_neut(3)] = 0.0007387107
+E[P_neut(4)] = 0.0004669519
+E[P_neut(5)] = 0.0003095111
+E[P_neut(6)] = 0.0002149735
+E[P_neut(7)] = 0.0001620664
+E[P_neut(8)] = 0.0001174895
+E[P_neut(9)] = 0.0001036979
+E[P_neut(10)] = 0.0000916043
+E[P_neut(11)] = 0.0000755892
+E[P_neut(12)] = 0.0000620977
+E[P_neut(13)] = 0.0000525322
+E[P_neut(14)] = 0.0000478648
+E[P_neut(15)] = 0.0000463336
+E[P_neut(16)] = 0.0000488766
+E[P_neut(17)] = 0.0000459321
+E[P_neut(18)] = 0.0000469201
+E[P_neut(19)] = 0.0000462093
+E[P_neut(20)] = 0.0000566048
+E[P_neut(21)] = 0.0000617587
+E[P_neut(22)] = 0.0000994582
+E[P_neut(23)] = 0.0001980449
+
+---- Expected P_sel(i), 0 < i < n (selected SFS per site) 
+E[P_sel(1)] = 0.0007827920
+E[P_sel(2)] = 0.0002815022
+E[P_sel(3)] = 0.0001339842
+E[P_sel(4)] = 0.0000806229
+E[P_sel(5)] = 0.0000515613
+E[P_sel(6)] = 0.0000348265
+E[P_sel(7)] = 0.0000256644
+E[P_sel(8)] = 0.0000182525
+E[P_sel(9)] = 0.0000158473
+E[P_sel(10)] = 0.0000137998
+E[P_sel(11)] = 0.0000112442
+E[P_sel(12)] = 0.0000091341
+E[P_sel(13)] = 0.0000076502
+E[P_sel(14)] = 0.0000069087
+E[P_sel(15)] = 0.0000066351
+E[P_sel(16)] = 0.0000069513
+E[P_sel(17)] = 0.0000064945
+E[P_sel(18)] = 0.0000066033
+E[P_sel(19)] = 0.0000064823
+E[P_sel(20)] = 0.0000079304
+E[P_sel(21)] = 0.0000086670
+E[P_sel(22)] = 0.0000140660
+E[P_sel(23)] = 0.0000287351
+
+---- Expected D_neut and D_sel (neutral and selected divergence per site) 
+E[D_neut] = 0.0102674504
+E[D_sel] = 0.0016406977
+
+---- Expected neutral and selected misattributed polymorphism per site
+E[mis_neut] = 0.0000876840
+E[mis_sel] = 0.0000129866
+
+---- alpha_div = 0.178704
+---- alpha_dfe = 0.178639
+
+
+
+---- Running command
+---- ./polyDFE -d central_chimp_sfs -b  params_basinhop.txt 1 -l 60 
+---- Performing inference on central_chimp_sfs using model C
+
+---- Warning: mutation variability is not used when only one neutral and one selected fragment is available.
+---- No mutation variability. Using Poisson likelihood.
+
+---- Starting a maximum of 10 basin hopping iterations
+
+---- Calculating initial values for neutral parameters
+---- Calculating initial values for selection parameters
+
+
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.10000000 0.01010989 0.00377386     -20000 0.60400000 0.10000000         20 0.85961893 0.67175478 0.56745097 0.47618128 0.39338493 0.34950572 0.29170493 0.29781684 0.29780140 0.24727780 0.23799418 0.23846492 0.25183858 0.24447651 0.30189145 0.31354421 0.35337968 0.46171951 0.63079261 0.91141584 1.73578324          1          1 -249007.2150516 4553.23724   -2 
+ 687 0.00019993 0.01012223 0.00337401 -49866.372 0.17070369 0.00243498 12.9232270 0.85247405 0.65804773 0.55479779 0.45974353 0.38314342 0.33706890 0.27918024 0.27718634 0.27198979 0.24680802 0.22109707 0.20250995 0.19860645 0.20585475 0.23148860 0.23091267 0.24945939 0.25888515 0.33340123 0.38109880 0.64169454 1.33512625 1.04230194 -209.1804934522 0.00975463   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 1
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.12165544 0.06608947 0.06320277 -49864.906 1.48615479 0.06417214 8.23572265 2.77966565 1.72042390 1.77108425 0.34645359 0.97133139 2.71897602 1.56561013 0.42128166 1.10697224 1.74395692 2.53883200 0.41266724 1.29199887 1.75212655 1.21473957 0.67559143 2.63558893 2.39923333 1.67423786 2.17648319 3.02951811 2.42222896 0.37250992 -2564731.248129 24332.8746   -2 
+ 793 0.00011178 0.01022007 0.00337296 -49812.926 0.17055138 0.00217532 14.3353092 0.85258428 0.65813760 0.55490391 0.45984807 0.38329218 0.33712611 0.27930110 0.27731468 0.27213906 0.24696872 0.22127298 0.20271015 0.19882588 0.20611393 0.23178113 0.23126731 0.24992589 0.25951089 0.33418947 0.38214864 0.64374087 1.33942083 0.34461627 -209.1412893031 0.00536255   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 2
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.01346233 0.01172205 0.14505286 -52997.240 1.38460645 0.05592427 9.29437618 0.11801543 0.44779320 1.26726402 2.54688290 1.87245583 1.75519980 1.50001704 2.21985458 0.39243664 1.07299763 1.64373653 1.73588166 0.06789035 2.55245770 1.56650150 1.25612711 2.34533435 0.33374698 1.94830600 2.27226590 2.32097454 0.06207416 2.53720572 -3449775.089333 32963.6406   -2 
+ 971 0.00004835 0.00997978 0.00337416 -48054.003 0.17223204 0.00370189 8.82650998 0.85275692 0.65827626 0.55491057 0.45967967 0.38287453 0.33693284 0.27913683 0.27705301 0.27177324 0.24656137 0.22088262 0.20227362 0.19835777 0.20556104 0.23102404 0.23045895 0.24889584 0.25834875 0.33235664 0.38008699 0.63995490 1.33444644 2.06592438 -209.3036364923 0.04095911   -6 
+-- Local optimization: reached maximum running time allowed
+
+---- Basin hopping iteration 3
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.09938438 0.12840744 0.04490655 -39437.288 1.78281375 0.07878754 9.32771184 1.33043529 1.87264962 2.05612469 2.41522292 0.00167451 0.37652465 0.90791895 1.20885604 2.20921082 0.97585997 2.15668666 0.46974194 1.31819488 2.42973493 2.31455688 2.29513410 2.12276281 1.50397208 1.20044358 0.57549844 1.94041863 2.77444703 2.75022925 -3120653.944959 30480.8743   -2 
+ 795 0.00155538 0.00990260 0.00342310 -94015.538 0.21602011 0.09531012 0.00024174 0.83467149 0.63768879 0.53364077 0.44029291 0.36563228 0.32069149 0.26416650 0.26199562 0.25566491 0.23314315 0.20769863 0.19068052 0.18622593 0.19331165 0.21717033 0.21650710 0.23370983 0.24153818 0.31087080 0.35654919 0.59796055 1.25400524 3.02607410 -231.9493927603 0.14366540   -6 
+-- Local optimization: reached maximum running time allowed
+
+---- Basin hopping iteration 4
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.08122420 0.03584034 0.23287188 -52986.479 0.95416383 0.09468021 4.33704792 2.43909530 0.29152076 0.51603626 1.55426363 0.25831686 1.60903800 1.59405451 1.33847134 1.05713814 2.44035594 1.81110749 2.50816330 2.40262456 1.62278131 1.37920280 0.58000004 0.23682554 0.31357358 2.26261195 1.46613788 1.84691003 1.43628739 2.18754845 -7272811.979514 62498.7567   -2 
+ 643 0.00305850 0.00885035 0.00340344 -99234.119 0.15740590 0.00120505 23.0111099 0.84664427 0.65248607 0.54954990 0.45381719 0.37763126 0.33338175 0.27502600 0.27339429 0.26850836 0.24399462 0.21686038 0.19981013 0.19543159 0.20240263 0.22728988 0.22603143 0.24319743 0.25138856 0.32293530 0.36525982 0.60864813 1.24948546 9.99555686 -210.2531979092 0.09500247   -6 
+-- Local optimization: reached maximum running time allowed
+
+
+---- Basin hopping iteration 5
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.03873446 0.11575237 0.17830719 -43351.200 1.15280008 0.04665283 37.3720519 1.75355712 2.87507232 1.35107165 0.28646318 1.44437370 1.83855526 2.33820383 0.68715786 0.75313077 1.73926750 2.50873207 0.85746982 1.67032552 0.03204775 2.22712282 2.16882256 1.20304846 2.30899469 2.17915067 1.36494038 1.90267355 0.26937403 2.45221417 -8947842.600901 73952.2843   -2 
+  21 0.02636645 0.00377203 0.00134940 -53597.831 0.01000504 0.00000081 0.18791017 0.89412543 0.66004100 0.57421296 0.41540543 0.34479335 0.25558361 0.17625314 0.39473144 0.32959701 0.25237060 0.20684491 0.29883450 0.28311557 0.04394418 0.31902694 0.34458457 0.81725268 0.41959813 0.47264684 0.50570564 0.65944885 0.36738097 1.41557097 -41766.28455234 15.9639764   -3 
+-- Local optimization: stuck in the same solution
+
+---- Basin hopping iteration 6
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.10594587 0.00756391 0.05225394 -49115.743 0.38208041 0.05290961 8.13158711 2.64370352 2.25130344 0.08015316 1.37216661 2.78176680 0.89377727 1.94404746 2.03011909 1.88522484 0.86263424 1.45071063 0.11128556 1.06500982 1.02234895 1.66680118 0.64081011 2.29437904 0.72499622 0.40707675 0.48583390 0.75786388 0.36461473 1.31012412 -1449720.382600 16412.3275   -2 
+ 671 0.00019010 0.01009046 0.00336903 -49958.374 0.16943265 0.00069442 43.1486603 0.85274803 0.65847192 0.55530874 0.46029240 0.38376148 0.33762618 0.27980647 0.27786359 0.27281052 0.24769661 0.22193011 0.20345298 0.19961646 0.20704673 0.23305031 0.23270454 0.25167621 0.26161979 0.33738661 0.38635247 0.65203478 1.35677579 1.25239129 -209.2164791064 0.01193653   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 7
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.11242509 0.00075767 0.02391661 -56661.090 0.68317448 0.05471925 6.42656929 0.72754672 0.97706217 0.02941927 2.43510129 1.47680611 1.02275451 1.62743067 1.43309683 0.27886880 2.59632083 2.59945338 1.69133128 0.64711705 2.13251855 1.70287577 1.36953404 0.31421503 0.62770688 1.79218224 0.24422510 0.41868364 0.56610566 0.35930388 -473613.5961599 4788.96312   -2 
+ 546 0.00052354 0.01020594 0.00337359 -49699.273 0.17039668 0.00185647 16.6765389 0.85264171 0.65823463 0.55500940 0.45995310 0.38339325 0.33722453 0.27937989 0.27740770 0.27223958 0.24706072 0.22133439 0.20276360 0.19886318 0.20614205 0.23182861 0.23123376 0.24980530 0.25919974 0.33360029 0.38090399 0.64088482 1.33041335 0.44250319 -209.1749638249 0.00708383   -3 
+-- Local optimization: stuck in the same solution
+
+
+---- Basin hopping iteration 8
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.07203855 0.12703826 0.13295077 -48566.049 0.23940967 0.04355475 30.5317977 0.03591801 1.53003242 2.42626778 1.50670394 1.74690674 1.13613688 1.94669861 0.79863435 0.42373851 2.25462232 1.05586784 0.05455494 2.58620105 1.20303060 0.00441909 1.11502848 2.00905103 2.17231610 2.16338335 0.85589983 1.07583168 3.34537866 1.81945008 -7259042.134284 63253.6404   -2 
+ 967 0.00007510 0.01003994 0.00335087 -277.50332 9.96000607 0.16244369 0.00011814 0.91009719 0.68956948 0.57064458 0.46631901 0.38465322 0.33536079 0.27588491 0.27231359 0.26588749 0.24019381 0.21435496 0.19577796 0.19150809 0.19808643 0.22231740 0.22153169 0.23919579 0.24834968 0.31998686 0.36663782 0.62035953 1.30239348 1.17284790 -257.2273260991 0.00686616   -8 
+-- Reached maximum number of likelihood evaluations allowed. Results are not reliable
+
+---- Basin hopping iteration 9
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.10660565 0.08985024 0.07886074 -62641.528 2.13455755 0.05832582 11.3060181 0.06750739 2.60829690 0.81915102 0.73911867 0.77944792 0.93604159 0.53499240 0.37417217 2.65954643 2.48028403 0.71323951 1.20599862 0.85827284 2.60860430 0.71590831 0.69324083 0.21078586 2.02594451 2.68737413 2.63368415 1.00247142 3.18292656 2.33677049 -2926309.896059 27115.8467   -2 
+ 902 0.00019926 0.01005918 0.00337551 -57527.682 0.16707683 0.00120456 24.5528463 0.85145831 0.65708108 0.55393598 0.45893939 0.38248842 0.33652615 0.27879457 0.27694166 0.27163640 0.24666923 0.22104440 0.20250941 0.19868962 0.20595198 0.23176867 0.23118224 0.25023853 0.25986037 0.33478789 0.38303412 0.64574858 1.34242217 1.48330188 -208.9984649187 0.02202195   -6 
+-- Local optimization: reached maximum running time allowed
+
+
+---- Basin hopping iteration 10
+-- Starting local optimization
+-- Optimizing all parameters
+  it     eps_an     lambda  theta_bar        S_d          b        p_b        S_b       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24           ln lk       grad status 
+   0 0.05810908 0.12753070 0.05130682 -42616.833 1.59134302 0.05963959 17.7281131 2.01373171 1.33685826 1.57719335 1.31029592 2.09706743 0.03025727 1.11065571 0.65355244 1.14231572 1.32606411 0.47399379 0.76665323 0.46552986 2.43253042 1.19830407 0.38450962 1.92418804 1.35358741 0.85275215 2.23379158 1.09404649 1.12730581 0.33462342 -3645091.446455 37277.8978   -2 
+ 749 0.00007661 0.01021699 0.00339595 -99939.008 0.15839286 0.00390696 6.98928793 0.84686580 0.65365739 0.54730098 0.45505084 0.37712722 0.33211142 0.27535555 0.27265087 0.26789676 0.24280692 0.21762178 0.19814292 0.19508320 0.20146254 0.22651359 0.22490945 0.24362625 0.25301581 0.32783761 0.37851637 0.63153815 1.31875602 0.40847490 -210.9505541255 0.81880827   -6 
+-- Local optimization: reached maximum running time allowed
+
+
+---- Basin hopping performed 10 iterations
+---- Basin hopping reached maximum number of iterations allowed
+
+---- Best joint likelihood found -209.141289303133476 with gradient 0.00536
+--  Model: C
+--     eps_an     lambda  theta_bar          a 
+-- 0.00011178 0.01022007 0.00337296         -1 
+--        S_d          b        p_b        S_b 
+-- -49812.926 0.17055138 0.00217532 14.3353092 
+--       r  2       r  3       r  4       r  5       r  6       r  7       r  8       r  9       r 10       r 11       r 12       r 13       r 14       r 15       r 16       r 17       r 18       r 19       r 20       r 21       r 22       r 23       r 24 
+-- 0.85258428 0.65813760 0.55490391 0.45984807 0.38329218 0.33712611 0.27930110 0.27731468 0.27213906 0.24696872 0.22127298 0.20271015 0.19882588 0.20611393 0.23178113 0.23126731 0.24992589 0.25951089 0.33418947 0.38214864 0.64374087 1.33942083 0.34461627 
+
+---- Expected P_neut(i), 0 < i < n (neutral SFS per site) 
+E[P_neut(1)] = 0.0033726139
+E[P_neut(2)] = 0.0014377205
+E[P_neut(3)] = 0.0007398834
+E[P_neut(4)] = 0.0004678724
+E[P_neut(5)] = 0.0003101811
+E[P_neut(6)] = 0.0002154533
+E[P_neut(7)] = 0.0001624321
+E[P_neut(8)] = 0.0001177515
+E[P_neut(9)] = 0.0001039240
+E[P_neut(10)] = 0.0000917868
+E[P_neut(11)] = 0.0000757263
+E[P_neut(12)] = 0.0000621956
+E[P_neut(13)] = 0.0000525976
+E[P_neut(14)] = 0.0000479073
+E[P_neut(15)] = 0.0000463542
+E[P_neut(16)] = 0.0000488696
+E[P_neut(17)] = 0.0000458988
+E[P_neut(18)] = 0.0000468518
+E[P_neut(19)] = 0.0000460991
+E[P_neut(20)] = 0.0000564065
+E[P_neut(21)] = 0.0000614556
+E[P_neut(22)] = 0.0000988460
+E[P_neut(23)] = 0.0001967823
+
+---- Expected P_sel(i), 0 < i < n (selected SFS per site) 
+E[P_sel(1)] = 0.0007841490
+E[P_sel(2)] = 0.0002811923
+E[P_sel(3)] = 0.0001336676
+E[P_sel(4)] = 0.0000803771
+E[P_sel(5)] = 0.0000513826
+E[P_sel(6)] = 0.0000346969
+E[P_sel(7)] = 0.0000255665
+E[P_sel(8)] = 0.0000181834
+E[P_sel(9)] = 0.0000157896
+E[P_sel(10)] = 0.0000137516
+E[P_sel(11)] = 0.0000112083
+E[P_sel(12)] = 0.0000091085
+E[P_sel(13)] = 0.0000076323
+E[P_sel(14)] = 0.0000068968
+E[P_sel(15)] = 0.0000066288
+E[P_sel(16)] = 0.0000069508
+E[P_sel(17)] = 0.0000065018
+E[P_sel(18)] = 0.0000066204
+E[P_sel(19)] = 0.0000065105
+E[P_sel(20)] = 0.0000079817
+E[P_sel(21)] = 0.0000087453
+E[P_sel(22)] = 0.0000142300
+E[P_sel(23)] = 0.0000290689
+
+---- Expected D_neut and D_sel (neutral and selected divergence per site) 
+E[D_neut] = 0.0102685067
+E[D_sel] = 0.0016404283
+
+---- Expected neutral and selected misattributed polymorphism per site
+E[mis_neut] = 0.0000484325
+E[mis_sel] = 0.0000073164
+
+---- alpha_div = 0.196846
+---- alpha_dfe = 0.196567
+
+
+
